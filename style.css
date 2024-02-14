@@ -1,0 +1,138 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+header {
+    background-color: black;
+    width: 100vw;
+    margin: 0;
+   height: 30vh;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+li{ 
+    list-style-type: none;
+    display: inline;
+    
+}
+
+li a{
+    color: rgb(232, 237, 241);
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+    padding-left: 20px;
+    margin: 40px;
+}
+
+ul {
+    margin: 0; 
+}
+
+hr{
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+#header{
+    color: black;
+    width: 58vw;
+    height: 80vh;
+    background-color: white;
+    margin: auto;
+    padding:40px 0px 40px 20px;
+    text-align: center;
+  
+}
+
+#intro {
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+    font-size: 18px;
+    background-color: rgb(228, 205, 177);
+    padding-right: 20px;
+    padding-top: 30px;
+    overflow: scroll;
+}
+
+#intro-pic {
+    float: left;
+    width: 600px;
+    height: 600px;
+    margin: 30px;
+}
+
+#intro-para{
+   padding-right: 50px;
+   padding-left: 30px;
+}
+ 
+/* second section */
+#poet{
+    background-image: url('./images/book.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60vw;
+    height: 50vh;
+    margin: auto;
+    font-size: 18px;
+    /* background-color: rgb(245, 228, 208); */
+    padding-right: 20px;
+    padding-top: 30px;
+    overflow: scroll;
+}
+  
+#quote {
+    color: black;
+    font-family: "Inter",sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 30px;
+    font-weight: bolder;
+    height: 30%;
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#poet-div {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    height: 30%;
+    width: 60%;
+    padding-left: 400px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+#poem {
+    background-color: rgb(228, 205, 177);
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    padding: 40px 10px 0px 10px;
+    
+}
+
+#poetry{
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    background-color: rgb(228, 205, 177);
+    width: 60vw;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+}
